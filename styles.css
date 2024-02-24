@@ -1,0 +1,99 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(63, 65, 187);
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #d43535;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: #193f1b;
+}
+
+/* Upload button styles */
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.btn {
+  border: 2px solid rgb(63, 65, 187);
+  color: rgb(245, 245, 245);
+  background-color: rgb(63, 65, 187);
+  padding: 12.5px 25px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.loading-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 2s infinite;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

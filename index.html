@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Background Removal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="pic.png" type="image/png" />
+  </head>
+  <body>
+    <h2>Image Background Removal</h2>
+    <br />
+    <img src="transparency.png" alt="Background Removal Logo" class="logo" />
+    <div class="upload-btn-wrapper">
+      <button class="btn">Upload Image(s)</button>
+      <input type="file" id="imageInput" accept="image/*" multiple />
+      <!-- <p id="fileCountText"></p> -->
+    </div>
+
+    <button onclick="removeBackground()">Remove Background</button>
+    <br />
+
+    <p id="fileCountText"></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+      © <span id="currentYear"></span> - Built with 🧡 by
+      <a href="https://olawhite.com" target="_blank">Ola White</a>
+    </footer>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
