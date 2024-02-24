@@ -1,3 +1,15 @@
+/* 
+  Author: Ola White
+
+  Description: Greetings! This is my CSS stylesheet. Thanks for checking out my code. Don't forget to follow me on my pages:
+
+  Portfolio:   https://www.olawhite.com/
+  Github:      https://github.com/whitesoftx
+  Twitter:     https://twitter.com/
+  
+  Happy coding!
+*/
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f0f0f0;
@@ -10,8 +22,8 @@ body {
   margin: 0;
 }
 
-h2 {
-  color: rgb(63, 65, 187);
+h3 {
+  color: #6495ed;
 }
 
 input {
@@ -43,12 +55,15 @@ button:hover {
 }
 
 .btn {
-  border: 2px solid rgb(63, 65, 187);
-  color: rgb(245, 245, 245);
-  background-color: rgb(63, 65, 187);
-  padding: 12.5px 25px;
-  border-radius: 25px;
-  font-size: 1.1rem;
+  border: 1px dashed cornflowerblue;
+  color: gray;
+  background-color: white;
+  padding: 20px; /* Set padding to increase button size */
+  border-radius: 10px; /* Set border-radius for rounded corners */
+  width: 250px; /* Set width */
+  height: 200px; /* Set height */
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -78,9 +93,9 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #e0e1ebfb;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 footer a {

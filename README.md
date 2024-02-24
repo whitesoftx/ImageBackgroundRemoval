@@ -1,12 +1,8 @@
-Certainly! Below is a README.md template for your GitHub repository:
-
----
-
 # Image Background Removal
 
 ![Background Removal Logo](transparency.png)
 
-A simple web application for removing backgrounds from images using the Remove.bg API.
+A simple web application for removing backgrounds from images using the Remove.bg API. It is built using HTML, JavaScript, and utilizes the JSZip and removebg API.
 
 ## Features
 
@@ -21,7 +17,7 @@ A simple web application for removing backgrounds from images using the Remove.b
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/whitesoftx/image-background-removal.git
+git clone https://github.com/whitesoftx/ImageBackgroundRemoval.git
 ```
 
 ## You will need to register for an account with Remove.bg to use this app.
@@ -48,6 +44,12 @@ git clone https://github.com/whitesoftx/image-background-removal.git
 ## Author
 
 - [Ola White](https://olawhite.com)
+
+  Portfolio: https://www.olawhite.com/
+  Github: https://github.com/whitesoftx
+  Twitter: https://twitter.com/olawhite
+
+  Keep coding and exploring!
 
 ## License
 

@@ -1,10 +1,22 @@
+/* 
+  Author: Ola White
+
+  Description: Hello there! This is my JavaScript file. I appreciate your visit to my code base. Follow me on my pages:
+
+  Portfolio:   https://www.olawhite.com/
+  Github:      https://github.com/whitesoftx
+  Twitter:     https://twitter.com/olawhite
+  
+  Keep coding and exploring!
+*/
+
 function updateFileCount() {
   const input = document.getElementById("imageInput");
   const files = input.files;
   const fileCountText = document.getElementById("fileCountText");
 
   if (files.length > 0) {
-    fileCountText.innerHTML = `<strong style="font-size: 18px;">You have uploaded ${files.length} images.</strong>`;
+    fileCountText.innerHTML = `<strong style="font-size: 18px; color: #d43535;">You have uploaded ${files.length} images.</strong>`;
   } else {
     fileCountText.innerText = "";
   }
@@ -22,7 +34,7 @@ function removeBackground() {
 
   if (files.length > 0) {
     // Display the number of files selected
-    fileCountText.innerHTML = `<strong style="font-size: 18px;">You have uploaded ${files.length} images.</strong>`;
+    fileCountText.innerHTML = `<strong style="font-size: 18px; color: #d43535;">You have uploaded ${files.length} images.</strong>`;
 
     const zip = new JSZip();
 
