@@ -6,7 +6,7 @@
   Portfolio:   https://www.olawhite.com/
   Github:      https://github.com/whitesoftx
   Twitter:     https://twitter.com/olawhite
-  
+
   Enjoy exploring!
 -->
 
@@ -24,22 +24,22 @@
     />
   </head>
   <body>
+    <img src="transparency.png" alt="Background Removal Logo" class="logo" />
+    <br />
     <h3>Image Background Removal</h3>
     <br />
-    <img src="transparency.png" alt="Background Removal Logo" class="logo" />
     <div class="upload-btn-wrapper">
       <button class="btn">
         <img src="plus.png" alt="Upload files" class="logo" /><br /><br />Upload
         Image(s)
       </button>
       <input type="file" id="imageInput" accept="image/*" multiple />
-      <!-- <p id="fileCountText"></p> -->
+      <br /><br />
+
+      <p id="fileCountText"></p>
     </div>
 
     <button onclick="removeBackground()">Remove Background</button>
-    <br />
-
-    <p id="fileCountText"></p>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
     <script src="script.js"></script>
